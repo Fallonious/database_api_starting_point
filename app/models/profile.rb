@@ -1,6 +1,6 @@
 class Profile < ActiveRecord::Base
   # validates :username, presence: true, uniqueness: true
-  # before_create :parse
+
 
 
   def self.create_from_username(username)
